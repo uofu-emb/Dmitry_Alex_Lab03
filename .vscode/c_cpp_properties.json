@@ -1,0 +1,118 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/alexg/Code/Embedded/Lab03/include",
+                "/home/alexg/Code/Embedded/Lab03/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Inc",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/STM32F0xx",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver",
+                "/home/alexg/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Include",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc",
+                "/home/alexg/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                "/home/alexg/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/variants/STM32F0xx/F072R8T_F072RB(H-I-T)",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src",
+                "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/alexg/Code/Embedded/Lab03/include",
+                    "/home/alexg/Code/Embedded/Lab03/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Inc",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/STM32F0xx",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver",
+                    "/home/alexg/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Include",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc",
+                    "/home/alexg/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                    "/home/alexg/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/cores/arduino",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/variants/STM32F0xx/F072R8T_F072RB(H-I-T)",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src",
+                    "/home/alexg/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60111",
+                "STM32F072xB",
+                "STM32F0xx",
+                "ARDUINO=10808",
+                "ARDUINO_ARCH_STM32",
+                "NDEBUG",
+                "ARDUINO_DISCO_F072RB",
+                "BOARD_NAME=\"DISCO_F072RB\"",
+                "HAL_UART_MODULE_ENABLED",
+                "USE_FULL_LL_DRIVER",
+                "VARIANT_H=\"variant_DISCO_F072RB.h\"",
+                ""
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "compilerPath": "/home/alexg/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
