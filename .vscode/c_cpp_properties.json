@@ -12,8 +12,9 @@
                 "/home/alexg/Code/Embedded/Lab03/src",
                 "/home/alexg/Code/Embedded/Lab03/lib/hellothread/include",
                 "/home/alexg/Code/Embedded/Lab03/lib/hellothread/src",
+                "/home/alexg/Code/Embedded/Lab03/.pio/libdeps/disco_test/Unity/src",
                 "/home/alexg/.platformio/packages/framework-zephyr/include",
-                "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_f072rb/zephyr/include/generated",
+                "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_test/zephyr/include/generated",
                 "/home/alexg/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32f0",
                 "/home/alexg/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
                 "/home/alexg/.platformio/packages/framework-zephyr/drivers",
@@ -34,8 +35,9 @@
                     "/home/alexg/Code/Embedded/Lab03/src",
                     "/home/alexg/Code/Embedded/Lab03/lib/hellothread/include",
                     "/home/alexg/Code/Embedded/Lab03/lib/hellothread/src",
+                    "/home/alexg/Code/Embedded/Lab03/.pio/libdeps/disco_test/Unity/src",
                     "/home/alexg/.platformio/packages/framework-zephyr/include",
-                    "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_f072rb/zephyr/include/generated",
+                    "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_test/zephyr/include/generated",
                     "/home/alexg/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32f0",
                     "/home/alexg/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
                     "/home/alexg/.platformio/packages/framework-zephyr/drivers",
@@ -53,6 +55,7 @@
             "defines": [
                 "PLATFORMIO=60111",
                 "STM32F072xB",
+                "TESTING_ENV",
                 "BUILD_VERSION=zephyr-v20701",
                 "HSE_VALUE=8000000",
                 "KERNEL",
@@ -67,7 +70,7 @@
             ],
             "cStandard": "c99",
             "forcedInclude": [
-                "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_f072rb/zephyr/include/generated/autoconf.h",
+                "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_test/zephyr/include/generated/autoconf.h",
                 "/home/alexg/.platformio/packages/framework-zephyr/include/toolchain/zephyr_stdint.h",
                 ""
             ],
