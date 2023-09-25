@@ -19,7 +19,7 @@ void thread_entry(void)
 	timer_init(&timer, SLEEPTIME/2);
 
 	while (1) {
-        update_count(&counter, &semaphore, "thread");
+        update_count(&counter, &semaphore, "thread", K_FOREVER);
         k_timer_start(&timer, K_MSEC(SLEEPTIME*2), K_NO_WAIT);
         k_timer_status_sync(&timer);
         
@@ -46,7 +46,7 @@ int main(void)
 	timer_init(&timer, 1);
 
 	while (1) {
-        update_count(&counter, &semaphore, "main");
+                update_count(&counter, &semaphore, "main", K_FOREVER);
 		k_timer_start(&timer, K_MSEC(SLEEPTIME), K_NO_WAIT);
 		k_timer_status_sync(&timer);
 	}

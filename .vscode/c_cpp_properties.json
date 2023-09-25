@@ -23,6 +23,8 @@
                 "/home/alexg/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include",
                 "/home/alexg/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include/Legacy",
                 "/home/alexg/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/common_ll/include",
+                "/home/alexg/Code/Embedded/Lab03/lib/deadlock/include",
+                "/home/alexg/Code/Embedded/Lab03/lib/deadlock/src",
                 ""
             ],
             "browse": {
@@ -43,6 +45,8 @@
                     "/home/alexg/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include",
                     "/home/alexg/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32f0xx/drivers/include/Legacy",
                     "/home/alexg/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/common_ll/include",
+                    "/home/alexg/Code/Embedded/Lab03/lib/deadlock/include",
+                    "/home/alexg/Code/Embedded/Lab03/lib/deadlock/src",
                     ""
                 ]
             },
