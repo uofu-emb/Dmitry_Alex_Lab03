@@ -12,23 +12,23 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_f072rb/firmware.elf",
-            "projectEnvName": "disco_f072rb",
-            "toolchainBinDir": "/home/alexg/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "executable": "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_test/firmware.elf",
+            "projectEnvName": "disco_test",
+            "toolchainBinDir": "/home/alexg/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "/home/alexg/.platformio/platforms/ststm32/misc/svd/STM32F072x.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
-                "task": "Pre-Debug"
+                "task": "Pre-Debug (disco_test)"
             }
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_f072rb/firmware.elf",
-            "projectEnvName": "disco_f072rb",
-            "toolchainBinDir": "/home/alexg/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "executable": "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_test/firmware.elf",
+            "projectEnvName": "disco_test",
+            "toolchainBinDir": "/home/alexg/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "/home/alexg/.platformio/platforms/ststm32/misc/svd/STM32F072x.svd"
         },
@@ -36,9 +36,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_f072rb/firmware.elf",
-            "projectEnvName": "disco_f072rb",
-            "toolchainBinDir": "/home/alexg/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "executable": "/home/alexg/Code/Embedded/Lab03/.pio/build/disco_test/firmware.elf",
+            "projectEnvName": "disco_test",
+            "toolchainBinDir": "/home/alexg/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "/home/alexg/.platformio/platforms/ststm32/misc/svd/STM32F072x.svd",
             "loadMode": "manual"

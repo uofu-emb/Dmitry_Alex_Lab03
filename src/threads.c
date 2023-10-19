@@ -3,6 +3,8 @@
 #include <arch/cpu.h>
 #include <sys/printk.h>
 
+#include "hellothread.h"
+
 #define STACKSIZE 2000
 #define SLEEPTIME 1000
 
@@ -14,19 +16,21 @@ int counter;
 void thread_entry(void)
 {
 	struct k_timer timer;
-	k_timer_init(&timer, NULL, NULL);
+	timer_init(&timer, SLEEPTIME/2);
 
 	while (1) {
-        counter = counter + 1;
-		printk("hello world from %s! Count %d\n", "thread", counter);
-		k_timer_start(&timer, K_MSEC(SLEEPTIME), K_NO_WAIT);
-		k_timer_status_sync(&timer);
+        update_count(&counter, &semaphore, "thread", K_FOREVER);
+        k_timer_start(&timer, K_MSEC(SLEEPTIME*2), K_NO_WAIT);
+        k_timer_status_sync(&timer);
+        
+        
 	}
 }
 
 int main(void)
 {
     counter = 0;
+    k_sem_init(&semaphore, 1, 1);
     k_thread_create(&coop_thread,
                     coop_stack,
                     STACKSIZE,
@@ -39,15 +43,12 @@ int main(void)
                     K_NO_WAIT);
 
 	struct k_timer timer;
-	k_timer_init(&timer, NULL, NULL);
+	timer_init(&timer, 1);
 
 	while (1) {
-        k_sem_take(&semaphore, K_FOREVER);
-        counter = counter + 1;
-		printk("hello world from %s! Count %d\n", "main", counter);
+                update_count(&counter, &semaphore, "main", K_FOREVER);
 		k_timer_start(&timer, K_MSEC(SLEEPTIME), K_NO_WAIT);
 		k_timer_status_sync(&timer);
-        k_sem_give(&semaphore);
 	}
 
 	return 0;
